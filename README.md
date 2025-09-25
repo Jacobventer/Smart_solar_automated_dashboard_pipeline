@@ -16,7 +16,7 @@ The pipeline automatically:
 4. Generates dashboard comparing:
    - Forecasted vs. actual PV production
    - Weather predictions
-   - History fo Daily consumption vs. generation PV vs. forecased PV
+   - History of Daily consumption vs. generation PV vs. forecased PV
 5. Automates execution with Windows Task Scheduler, so everything updates daily without manual intervention
 
 
@@ -29,15 +29,18 @@ Click on a dashboard then on "Download raw file" to open a dashboard
 - [Dashboard – 2025-09-19](Dashboards/solar_dashboard_2025-09-19.html)  
 - [Dashboard – 2025-09-18](Dashboards/solar_dashboard_2025-09-18.html)  
 - [Dashboard – 2025-09-17](Dashboards/solar_dashboard_2025-09-17.html)
-- 
+
 Each dashboard includes:
 - Predicted vs. actual solar PV production with yesterdays and today's data
 - Weather conditions and codes
 - Daily forecast vs. consumption comparison bar graph
 
 Example of a dashboard (19 Sept 2025):
+Weather conditions and codes:
 ![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Weather%20dashboard.png)
+Predicted vs. actual solar PV production with yesterdays and today's data:
 ![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Solar%20PV%20dashboard.png)
+History fo Daily consumption vs. generation PV vs. forecased PV:
 ![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/History%20dashboard.png)
   
 
@@ -61,8 +64,7 @@ The full pipeline is scheduled to run automatically once per day using Windows T
 2. `Writing_scraped_files_to_HDF5.py` consolidates into `smartsolar.h5`  
 3. `Solar_Smart_Dashboard_V4.py` generates that day’s dashboard (`.html`) and saves it to the `Dashboards/` folder  
 
-This ensures a **fully automated "data-to-dashboard" workflow**.
-
+This ensures a fully automated "data-to-dashboard" pipeline.
 
 ## Tech Stack
 
