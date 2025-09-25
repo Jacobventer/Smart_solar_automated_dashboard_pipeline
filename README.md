@@ -88,10 +88,5 @@ This project demonstrates:
 - Deployment of static dashboards for sharing (via GitHub Pages)
 
 
-## GitHub Pages
-
-When GitHub Pages is enabled, dashboards will be available at:  
-`https://jacobventer.github.io/Smart_solar_automated_dashboard_pipeline/`
-
 
 
