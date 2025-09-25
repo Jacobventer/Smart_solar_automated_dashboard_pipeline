@@ -1,24 +1,24 @@
 #Smart Solar Optimize Data Pipeline
 
-This project demonstrates an **end-to-end automated data pipeline** for solar energy monitoring.  
-It was developed as part of a university assignment on **Data Quality and Data Wrangling**
+This project demonstrates an end-to-end automated data pipeline for solar energy monitoring.  
+It was developed as part of a university assignment on Data Quality and Data Wrangling
 
 ---
 
 ## Project Overview
 
 The pipeline automatically:
-1. **Scrapes data** from three different web sources:
+1. Scrapes data from three different web sources:
    - Solar radiation predictions
    - Local weather data
    - Inverter production/consumption logs
-2. **Cleans and standardizes** the data into a unified tidy format
-3. **Stores data in HDF5** using Pandas for efficient long-term use
-4. **Generates dashboards** comparing:
+2. Cleans and standardizes the data into a unified tidy format
+3. Stores data in HDF5 using Pandas for efficient long-term use
+4. Generates dashboards comparing:
    - Forecasted vs. actual PV production
    - Weather predictions
    - Daily consumption vs. generation
-5. **Automates execution** with Windows Task Scheduler, so everything updates daily without manual intervention
+5. Automates execution with Windows Task Scheduler, so everything updates daily without manual intervention
 
 ---
 
