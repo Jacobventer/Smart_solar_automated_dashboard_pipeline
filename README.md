@@ -10,7 +10,7 @@ The pipeline automatically:
 1. Scrapes data from three different web sources:
    - Solar radiation predictions
    - Local weather data
-   - Inverter production/consumption logs
+   - Inverter's actual data - Sunsynk in this case
 2. Cleans and standardizes the data into a unified tidy format
 3. Stores data in HDF5 using Pandas for efficient long-term use
 4. Generates dashboard comparing:
