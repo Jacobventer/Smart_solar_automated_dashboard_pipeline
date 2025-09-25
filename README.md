@@ -88,5 +88,9 @@ This project demonstrates:
 - Deployment of static dashboards for sharing (via GitHub Pages)
 
 
+## License
+
+This project is for academic purposes only as part of the Data Science degree at IU International Univercity of Applied Science
+
 
 
