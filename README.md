@@ -66,7 +66,7 @@ The full pipeline is scheduled to run automatically once per day using Windows T
 
 This ensures a fully automated "data-to-dashboard" pipeline.
 Dashboard runs at 00:39 each day
-![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Download%20auto.png?raw=true)
+![image]([https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Download%20auto.png?raw=true](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Download%20auto.png?raw=true))
 
 ## Tech Stack
 
