@@ -25,6 +25,7 @@ The pipeline automatically:
 
 10 example static dashboards are available in the [`Dashboards/`](Dashboards) folder.  
 Click on a dashboard then on "Download raw file" to open a dashboard
+![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Click%20here%20to%20download.png?raw=true)
 
 - [Dashboard – 2025-09-19](Dashboards/solar_dashboard_2025-09-19.html)  
 - [Dashboard – 2025-09-18](Dashboards/solar_dashboard_2025-09-18.html)  
