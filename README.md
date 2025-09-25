@@ -24,7 +24,7 @@ The pipeline automatically:
 
 ## Example Dashboards
 
-10 example static dashboards are available in the [`dashboards/`](dashboards) folder.  
+10 example static dashboards are available in the [`dashboards/`](Dashboards) folder.  
 They can be viewed directly online thanks to GitHub Pages:
 
 - [Dashboard – 2025-09-08](dashboards/solar_dashboard_2025-09-08.html)  
