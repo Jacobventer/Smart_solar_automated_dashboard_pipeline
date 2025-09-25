@@ -5,7 +5,7 @@ It was developed as part of a university assignment on **Data Quality and Data W
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The pipeline automatically:
 1. **Scrapes data** from three different web sources:
@@ -22,14 +22,15 @@ The pipeline automatically:
 
 ---
 
-## 📊 Example Dashboards
+## Example Dashboards
 
 10 example static dashboards are available in the [`dashboards/`](dashboards) folder.  
 They can be viewed directly online thanks to GitHub Pages:
 
 - [Dashboard – 2025-09-08](dashboards/solar_dashboard_2025-09-08.html)  
 - [Dashboard – 2025-09-09](dashboards/solar_dashboard_2025-09-09.html)  
-- [Dashboard – 2025-09-10](dashboards/solar_dashboard_2025-09-10.html)  
+- [Dashboard – 2025-09-10](dashboards/solar_dashboard_2025-09-10.html)
+  
 
 Each dashboard includes:
 - Predicted vs. actual solar PV production
@@ -42,15 +43,15 @@ Each dashboard includes:
 
 All scripts are in the [`scripts/`](scripts) folder:
 
-- `scraper_weather.py` → downloads weather forecasts  
-- `scraper_solar.py` → downloads solar radiation predictions  
-- `scraper_inverter.py` → processes inverter logs  
-- `writer_hdf5.py` → combines all data into a single HDF5 time series store  
-- `dashboard.py` → generates interactive Plotly Dash visualizations and saves daily static HTML dashboards  
+- `sWeather_scraper.py` → downloads weather forecasts  
+- `Solar_prediction_daily.py` → downloads solar radiation predictions  
+- `Sunsynk_download.py` → downloads inverter data 
+- `Writing_scraped_files_to_HDF5.py` → combines all data into a single HDF5 time series file  
+- `Solar_Smart_Dashboard_V4.py` → generates interactive Plotly Dash visualizations and saves daily static HTML dashboards  
 
 ---
 
-## ⚡ Automation
+## Automation
 
 The full pipeline is scheduled to run **automatically once per day** using Windows Task Scheduler:
 
@@ -62,7 +63,7 @@ This ensures a **fully automated "data-to-dashboard" workflow**.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Python** (pandas, numpy, plotly, dash)  
 - **HDF5** (via pandas `HDFStore`)  
@@ -71,7 +72,7 @@ This ensures a **fully automated "data-to-dashboard" workflow**.
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 - Data scraping from heterogeneous sources
