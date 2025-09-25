@@ -87,7 +87,7 @@ This project demonstrates:
 ## GitHub Pages
 
 When GitHub Pages is enabled, dashboards will be available at:  
-`(https://jacobventer.github.io/Smart_solar_automated_dashboard_pipeline/)`
+`[(https://jacobventer.github.io/Smart_solar_automated_dashboard_pipeline/)](https://jacobventer.github.io/Smart_solar_automated_dashboard_pipeline/)`
 
 ---
 
