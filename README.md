@@ -1,6 +1,6 @@
 # Data Quality and Data Wrangling Project
-
-This project demonstrates an end-to-end automated data pipeline for solar energy monitoring.  
+## Smart Solar Opitimze automatic dashboard pipeline
+This project demonstrates an end-to-end automated data pipeline for a hypothetical solar mangement compony - Smar Solar Optimize.  
 It was developed as part of a university assignment on Data Quality and Data Wrangling
 
 
