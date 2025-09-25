@@ -25,7 +25,7 @@ The pipeline automatically:
 ## Example Dashboards
 
 10 example static dashboards are available in the [`Dashboards/`](Dashboards) folder.  
-They can be viewed directly online thanks to GitHub Pages:
+Click on a dashboard then on "Download raw file" to open a dashboard
 
 - [Dashboard – 2025-09-19](Dashboards/solar_dashboard_2025-09-19.html)  
 - [Dashboard – 2025-09-18](Dashboards/solar_dashboard_2025-09-18.html)  
@@ -33,9 +33,9 @@ They can be viewed directly online thanks to GitHub Pages:
   
 
 Each dashboard includes:
-- Predicted vs. actual solar PV production
+- Predicted vs. actual solar PV production with yesterdays and today's data
 - Weather conditions and codes
-- Daily forecast vs. consumption comparison
+- Daily forecast vs. consumption comparison bar graph
 
 ---
 
@@ -55,9 +55,9 @@ All scripts are in the [`Scripts/`](Scripts) folder:
 
 The full pipeline is scheduled to run **automatically once per day** using Windows Task Scheduler:
 
-1. Scraper scripts run first and save CSV/XLSX data  
-2. `writer_hdf5.py` consolidates into `smartsolar.h5`  
-3. `dashboard.py` generates that day’s dashboard (`.html`) and saves it to the `dashboards/` folder  
+1. 3 Scraper scripts run first and save CSV/XLSX data  
+2. `Writing_scraped_files_to_HDF5.py` consolidates into `smartsolar.h5`  
+3. `Solar_Smart_Dashboard_V4.py` generates that day’s dashboard (`.html`) and saves it to the `Dashboards/` folder  
 
 This ensures a **fully automated "data-to-dashboard" workflow**.
 
@@ -84,7 +84,7 @@ This project demonstrates:
 
 ---
 
-## 🔗 GitHub Pages
+## GitHub Pages
 
 When GitHub Pages is enabled, dashboards will be available at:  
 `(https://jacobventer.github.io/Smart_solar_automated_dashboard_pipeline/)`
