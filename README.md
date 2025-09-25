@@ -24,7 +24,7 @@ The pipeline automatically:
 
 ## Example Dashboards
 
-10 example static dashboards are available in the [`dashboards/`](Dashboards) folder.  
+10 example static dashboards are available in the [`Dashboards/`](Dashboards) folder.  
 They can be viewed directly online thanks to GitHub Pages:
 
 - [Dashboard – 2025-09-19](Dashboards/solar_dashboard_2025-09-19.html)  
@@ -41,7 +41,7 @@ Each dashboard includes:
 
 ## Code
 
-All scripts are in the [`scripts/`](scripts) folder:
+All scripts are in the [`Scripts/`](Scripts) folder:
 
 - `sWeather_scraper.py` → downloads weather forecasts  
 - `Solar_prediction_daily.py` → downloads solar radiation predictions  
