@@ -41,7 +41,7 @@ Each dashboard includes:
 
 ## Code
 
-All scripts are in the [`Python Scripts/`](Python Scripts) folder:
+All scripts are in the [`Scripts/`](Scripts) folder:
 
 - `Weather_scraper.py` → downloads weather forecasts  
 - `Solar_prediction_daily.py` → downloads solar radiation predictions  
