@@ -1,4 +1,4 @@
-#Smart Solar Optimize Data Pipeline 🌞⚡
+#Smart Solar Optimize Data Pipeline
 
 This project demonstrates an **end-to-end automated data pipeline** for solar energy monitoring.  
 It was developed as part of a university assignment on **Data Quality and Data Wrangling**
@@ -39,7 +39,7 @@ Each dashboard includes:
 
 ---
 
-## 🛠️ Code
+## Code
 
 All scripts are in the [`scripts/`](scripts) folder:
 
@@ -87,7 +87,7 @@ This project demonstrates:
 ## 🔗 GitHub Pages
 
 When GitHub Pages is enabled, dashboards will be available at:  
-`https://<your-username>.github.io/smart-solar-data-pipeline/`
+`[https://<your-username>.github.io/smart-solar-data-pipeline/](https://jacobventer.github.io/Smart_solar_automated_dashboard_pipeline/)`
 
 ---
 
