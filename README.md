@@ -1,6 +1,6 @@
 # Data Quality and Data Wrangling Project
 ## Smart Solar Opitimze automatic dashboard pipeline
-This project demonstrates an end-to-end automated data pipeline for a hypothetical solar mangement compony - Smar Solar Optimize.  
+This project demonstrates an end-to-end automated data pipeline for a hypothetical solar mangement compony - Smart Solar Optimize.  
 It was developed as part of a university assignment on Data Quality and Data Wrangling
 
 
@@ -29,6 +29,8 @@ Click on a dashboard then on "Download raw file" to open a dashboard
 - [Dashboard – 2025-09-19](Dashboards/solar_dashboard_2025-09-19.html)  
 - [Dashboard – 2025-09-18](Dashboards/solar_dashboard_2025-09-18.html)  
 - [Dashboard – 2025-09-17](Dashboards/solar_dashboard_2025-09-17.html)
+
+- [History Bar graph from dashboard](Dashboard_screenshot/History dashboard.png)
   
 
 Each dashboard includes:
