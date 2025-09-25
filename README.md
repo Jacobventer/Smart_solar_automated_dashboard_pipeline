@@ -43,7 +43,7 @@ Each dashboard includes:
 
 All scripts are in the [`Python Scripts/`](Python Scripts) folder:
 
-- `sWeather_scraper.py` → downloads weather forecasts  
+- `Weather_scraper.py` → downloads weather forecasts  
 - `Solar_prediction_daily.py` → downloads solar radiation predictions  
 - `Sunsynk_download.py` → downloads inverter data 
 - `Writing_scraped_files_to_HDF5.py` → combines all data into a single HDF5 time series file  
