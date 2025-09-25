@@ -1,4 +1,4 @@
-##Data Quality and Data Wrangling Project
+#Data Quality and Data Wrangling Project
 
 This project demonstrates an end-to-end automated data pipeline for solar energy monitoring.  
 It was developed as part of a university assignment on Data Quality and Data Wrangling
