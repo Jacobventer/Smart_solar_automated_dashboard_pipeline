@@ -19,7 +19,7 @@ The pipeline automatically:
    - Daily consumption vs. generation
 5. Automates execution with Windows Task Scheduler, so everything updates daily without manual intervention
 
----
+
 
 ## Example Dashboards
 
@@ -36,7 +36,6 @@ Each dashboard includes:
 - Weather conditions and codes
 - Daily forecast vs. consumption comparison bar graph
 
----
 
 ## Code
 
@@ -48,7 +47,7 @@ All scripts are in the [`Scripts/`](Scripts) folder:
 - `Writing_scraped_files_to_HDF5.py` → combines all data into a single HDF5 time series file  
 - `Solar_Smart_Dashboard_V4.py` → generates interactive Plotly Dash visualizations and saves daily static HTML dashboards  
 
----
+
 
 ## Automation
 
@@ -60,7 +59,7 @@ The full pipeline is scheduled to run **automatically once per day** using Windo
 
 This ensures a **fully automated "data-to-dashboard" workflow**.
 
----
+
 
 ## Tech Stack
 
@@ -69,7 +68,7 @@ This ensures a **fully automated "data-to-dashboard" workflow**.
 - **Automation** (Windows Task Scheduler)  
 - **Visualization** (Plotly Dash + static HTML dashboards)  
 
----
+
 
 ## Learning Outcomes
 
@@ -81,12 +80,12 @@ This project demonstrates:
 - Visualization and dashboarding with Plotly Dash
 - Deployment of static dashboards for sharing (via GitHub Pages)
 
----
+
 
 ## GitHub Pages
 
 When GitHub Pages is enabled, dashboards will be available at:  
 `https://jacobventer.github.io/Smart_solar_automated_dashboard_pipeline/`
 
----
+
 
