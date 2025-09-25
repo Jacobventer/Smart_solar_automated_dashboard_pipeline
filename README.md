@@ -1,7 +1,7 @@
 # Data Quality and Data Wrangling Project
-## Smart Solar Opitimze automatic dashboard pipeline
+## Smart Solar Opitimze automated dashboard pipeline
 This project demonstrates an end-to-end automated data pipeline for a hypothetical solar mangement compony - Smart Solar Optimize.  
-It was developed as part of a university assignment on Data Quality and Data Wrangling
+It was developed as part of a university assignment on Data Quality and Data Wrangling.
 
 
 ## Project Overview
@@ -13,10 +13,10 @@ The pipeline automatically:
    - Inverter production/consumption logs
 2. Cleans and standardizes the data into a unified tidy format
 3. Stores data in HDF5 using Pandas for efficient long-term use
-4. Generates dashboards comparing:
+4. Generates dashboard comparing:
    - Forecasted vs. actual PV production
    - Weather predictions
-   - Daily consumption vs. generation
+   - History fo Daily consumption vs. generation PV vs. forecased PV
 5. Automates execution with Windows Task Scheduler, so everything updates daily without manual intervention
 
 
@@ -34,14 +34,12 @@ Each dashboard includes:
 - Predicted vs. actual solar PV production with yesterdays and today's data
 - Weather conditions and codes
 - Daily forecast vs. consumption comparison bar graph
-  
+
+Example of a dashboard (19 Sept 2025):
 ![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Weather%20dashboard.png)
 ![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Solar%20PV%20dashboard.png)
 ![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/History%20dashboard.png)
   
-
-
-
 
 ## Code
 
@@ -57,14 +55,13 @@ All scripts are in the [`Scripts/`](Scripts) folder:
 
 ## Automation
 
-The full pipeline is scheduled to run **automatically once per day** using Windows Task Scheduler:
+The full pipeline is scheduled to run automatically once per day using Windows Task Scheduler:
 
 1. 3 Scraper scripts run first and save CSV/XLSX data  
 2. `Writing_scraped_files_to_HDF5.py` consolidates into `smartsolar.h5`  
 3. `Solar_Smart_Dashboard_V4.py` generates that day’s dashboard (`.html`) and saves it to the `Dashboards/` folder  
 
 This ensures a **fully automated "data-to-dashboard" workflow**.
-
 
 
 ## Tech Stack
@@ -75,17 +72,15 @@ This ensures a **fully automated "data-to-dashboard" workflow**.
 - **Visualization** (Plotly Dash + static HTML dashboards)  
 
 
-
 ## Learning Outcomes
 
 This project demonstrates:
-- Data scraping from heterogeneous sources
+- Data scraping from web sources
 - Data cleaning, tidying, and unification
 - Efficient storage formats (HDF5 for time series)
 - Automated ETL pipelines
 - Visualization and dashboarding with Plotly Dash
 - Deployment of static dashboards for sharing (via GitHub Pages)
-
 
 
 ## GitHub Pages
