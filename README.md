@@ -27,9 +27,9 @@ The pipeline automatically:
 10 example static dashboards are available in the [`dashboards/`](dashboards) folder.  
 They can be viewed directly online thanks to GitHub Pages:
 
-- [Dashboard – 2025-09-01](dashboards/solar_dashboard_2025-09-01.html)  
-- [Dashboard – 2025-09-05](dashboards/solar_dashboard_2025-09-05.html)  
-- [Dashboard – 2025-09-24](dashboards/solar_dashboard_2025-09-24.html)  
+- [Dashboard – 2025-09-08](dashboards/solar_dashboard_2025-09-08.html)  
+- [Dashboard – 2025-09-09](dashboards/solar_dashboard_2025-09-09.html)  
+- [Dashboard – 2025-09-10](dashboards/solar_dashboard_2025-09-10.html)  
 
 Each dashboard includes:
 - Predicted vs. actual solar PV production
