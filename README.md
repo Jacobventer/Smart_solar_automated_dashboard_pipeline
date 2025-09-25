@@ -30,6 +30,8 @@ Click on a dashboard then on "Download raw file" to open a dashboard
 - [Dashboard – 2025-09-18](Dashboards/solar_dashboard_2025-09-18.html)  
 - [Dashboard – 2025-09-17](Dashboards/solar_dashboard_2025-09-17.html)
 
+![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Weather%20dashboard.png)
+![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/Solar%20PV%20dashboard.png)
 ![image](https://github.com/Jacobventer/Smart_solar_automated_dashboard_pipeline/blob/main/Dashboard_screenshot/History%20dashboard.png)
   
 
