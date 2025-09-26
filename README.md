@@ -90,7 +90,7 @@ This project demonstrates:
 
 ## License
 
-This project is for academic purposes only as part of the Data Science degree at IU International Univercity of Applied Science
+This project is for academic purposes only as part of the Data Science degree at IU International University of Applied Science
 
 
 
